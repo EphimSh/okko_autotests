@@ -16,13 +16,13 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 
-
+@Tag("web")
 @Feature("Элементы главной страницы")
 @Owner("EphimSh")
 public class MainPageTests extends TestBase {
 
     static Faker faker = new Faker();
-    @Tag("web")
+
     @Test
     @Story("Авторизация через Сбер ID")
     @DisplayName("После нажатия кнопки 'Войти' появляется страница авторизации")
