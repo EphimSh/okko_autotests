@@ -13,7 +13,6 @@
 <img width="6%" title="JUnit5" src="media/logos/JUnit5.svg">
 <img width="6%" title="GitHub" src="media/logos/GitHub.svg">
 <img width="6%" title="Telegram" src="media/logos/Telegram.svg">
-<img width="5%" title="Jira" src="media/logos/Jira.svg">
 </p>
 
 - В данном проекте автотесты написаны на языке <code>Java</code> с использованием фреймворка для тестирования Selenide. 
