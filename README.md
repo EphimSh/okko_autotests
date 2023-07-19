@@ -19,7 +19,7 @@
 - В качестве сборщика был использован - <code>Gradle</code>.  
 - Использованы фреймворки <code>JUnit 5</code> и [Selenide](https://selenide.org/).
 - При прогоне тестов браузер запускается в [Selenoid](https://aerokube.com/selenoid/).
-- Для "удаленного" запуска, локально был поднят docker с selenoid на wsl ubuntu
+- Для "удаленного" запуска, локально был поднят <code>Docker</code> с <code>Selenoid</code> на wsl Ubuntu
 
 
 Содержание Allure-отчета:
