@@ -79,13 +79,13 @@ gradle clean web_test -Denv=remote
 После завершения тестов бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="media/screenshots/Telegram_dOO4Xyu1au.png">
+<img width="70%" title="Telegram Notifications" src="media/screenshots/telegram_report.png">
 </p>
 
 ## Видео примера запуска тестов в Selenoid
 
 К каждому тесту в отчете прилагается видео прогона.
 <p align="center">
-  <img title="Selenoid Video" src="media/screenshots/search_test_video_sample">
+  <img title="Selenoid Video" src="media/screenshots/search_test_video_sample.gif">
 </p>
 
