@@ -1,4 +1,4 @@
-# Проект по автоматизации UI-тестов сайта okko.tv
+# Проект по автоматизации UI-тестов на примере сайта okko.tv
 
 > okko.tv - Российский стриминговый сервис, по состоянию на 2023 г. занимает четвертое место среди российских онлайн-кинотеатров по количеству подписчиков.
 
@@ -6,21 +6,20 @@
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="media/logos/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="media/logos/Java.svg">
-<img width="6%" title="Docker" src="logos/Docker.svg">
+<img width="6%" title="Docker" src="media/logos/Docker.svg">
 <img width="6%" title="Selenide" src="media/logos/Selenide.svg">
 <img width="6%" title="Selenoid" src="media/logos/Selenoid.svg">
 <img width="6%" title="Gradle" src="media/logos/Gradle.svg">
 <img width="6%" title="JUnit5" src="media/logos/JUnit5.svg">
 <img width="6%" title="GitHub" src="media/logos/GitHub.svg">
 <img width="6%" title="Telegram" src="media/logos/Telegram.svg">
-<img width="5%" title="Jira" src="media/logos/Jira.svg">
 </p>
 
 - В данном проекте автотесты написаны на языке <code>Java</code> с использованием фреймворка для тестирования Selenide. 
 - В качестве сборщика был использован - <code>Gradle</code>.  
 - Использованы фреймворки <code>JUnit 5</code> и [Selenide](https://selenide.org/).
 - При прогоне тестов браузер запускается в [Selenoid](https://aerokube.com/selenoid/).
-- Для "удаленного" запуска, локально был поднят docker с selenoid на wsl ubuntu
+- Для "удаленного" запуска, локально был поднят <code>Docker</code> с <code>Selenoid</code> на wsl Ubuntu
 
 
 Содержание Allure-отчета:
@@ -60,7 +59,7 @@ gradle clean web_test -Denv=remote
 ### Тест-кейсы
 
 <p align="center">
-<img title="Test Results in Alure" src="media/screenshots/test_case1.png">
+<img title="Test Results in Alure" src="media/screenshots/test_case1.jpg">
 </p>
 
 <p align="center">
@@ -79,13 +78,13 @@ gradle clean web_test -Denv=remote
 После завершения тестов бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="media/screenshots/Telegram_dOO4Xyu1au.png">
+<img width="70%" title="Telegram Notifications" src="media/screenshots/telegram_report.png">
 </p>
 
 ## Видео примера запуска тестов в Selenoid
 
 К каждому тесту в отчете прилагается видео прогона.
 <p align="center">
-  <img title="Selenoid Video" src="media/screenshots/search_test_video_sample">
+  <img title="Selenoid Video" src="media/screenshots/search_test_video_sample.gif">
 </p>
 
