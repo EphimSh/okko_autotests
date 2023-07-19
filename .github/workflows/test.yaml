@@ -1,5 +1,5 @@
 name: Test
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: autotests on okko.tv
 on: workflow_dispatch
 jobs:
   test:
