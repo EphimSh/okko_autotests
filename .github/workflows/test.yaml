@@ -1,5 +1,5 @@
 name: Test
-run-name: autotests on primekraft.ru
+run-name: okko.tv autotests
 on: workflow_dispatch
 jobs:
   test:
