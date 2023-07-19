@@ -6,6 +6,7 @@ import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.*;
@@ -13,9 +14,9 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-
-@Feature("Поиск фильма")
 @Owner("EphimSh")
+@Feature("Поиск фильма")
+@Tags({@Tag("search"), @Tag("web")})
 public class SearchTest extends TestBase {
 
 
@@ -39,7 +40,7 @@ public class SearchTest extends TestBase {
         });
 
         step("Название выбранного фильма - Хоббит: Нежданное путешествие", ()->{
-            sleep(1000);
+            sleep(3000);
             $(withText("Хоббит: Нежданное путешествие")).should(exist);
         });
     }

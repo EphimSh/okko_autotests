@@ -43,6 +43,7 @@ public class MainPageTests extends TestBase {
             sleep(1000);
             $("#input-phone-error").shouldBe(visible);
         });
+        sleep(3000);
 
     }
 
@@ -64,6 +65,7 @@ public class MainPageTests extends TestBase {
             $(withText("Отсканируйте QR-код")).shouldBe(visible);
             $("[class*=LayoutBlock_container] svg").shouldBe(visible);
         });
+        sleep(3000);
 
     }
 
@@ -80,6 +82,7 @@ public class MainPageTests extends TestBase {
         step("Страница с описанием доступных подписок отображается", () -> {
             $(withText("Выберите подписку")).should(exist);
         });
+        sleep(3000);
     }
 
     @Test
@@ -93,6 +96,7 @@ public class MainPageTests extends TestBase {
             $$("[test-id=rail_tab]").filter(visible).find(exist).$(withText("Видеокурсы")).click();
             $(withText("Видеокурсы")).should(exist);
         });
+        sleep(3000);
 
     }
 
@@ -114,7 +118,7 @@ public class MainPageTests extends TestBase {
                     .find(exist).hover().scrollTo()
                     .$(withText("ужаснуться")).click();
         });
-        sleep(1000);
+        sleep(3000);
         step("Постер предлагаемого фильма виден", () -> {
             $$("[test-id=mood_rekko] #video-player")
                     .filter(exist)
