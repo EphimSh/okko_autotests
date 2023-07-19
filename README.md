@@ -6,7 +6,7 @@
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="media/logos/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="media/logos/Java.svg">
-<img width="6%" title="Docker" src="logos/Docker.svg">
+<img width="6%" title="Docker" src="media/logos/Docker.svg">
 <img width="6%" title="Selenide" src="media/logos/Selenide.svg">
 <img width="6%" title="Selenoid" src="media/logos/Selenoid.svg">
 <img width="6%" title="Gradle" src="media/logos/Gradle.svg">
@@ -59,7 +59,7 @@ gradle clean web_test -Denv=remote
 ### Тест-кейсы
 
 <p align="center">
-<img title="Test Results in Alure" src="media/screenshots/test_case1.png">
+<img title="Test Results in Alure" src="media/screenshots/test_case1.jpg">
 </p>
 
 <p align="center">
